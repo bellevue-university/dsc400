@@ -1,0 +1,99 @@
+site_name: "DSC 400 &ndash; Big Data"
+site_description: >-
+  With the cost of data storage consistently decreasing, data volumes are
+  increasing and organizations are no longer forced to only store the bare
+  minimum data. This course examines the technology required to analyze and
+  process Big Data. Topics include: Hadoop/MapReduce,
+  Spark/RDD, Spark/Storm Streaming, TensorFlow, Keras/Deep Learning,
+  Kubernetes, and Docker.
+site_author: "Bellevue University"
+site_url: "https://bellevue-university.github.io/dsc400/"
+
+# Repository
+repo_name: 'bellevue-university/dsc650'
+repo_url: 'https://github.com/bellevue-university/dsc400'
+
+# Copyright
+copyright: 'Copyright &copy; 2018 - 2020 Bellevue University'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  features:
+    - tabs
+  palette:
+    primary: 'deep purple'
+    accent: 'deep purple'
+  icon:
+    logo: material/library
+    repo: fontawesome/brands/git-alt
+  font:
+    text: Roboto
+    code: Roboto Mono
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+# Plugins
+plugins:
+    - search
+    - git-revision-date-localized
+    - minify:
+        minify_html: true
+    - table-reader
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/bellevue-university
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: bellevue-university
+      repo: dsc400
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+    - About: index.md
+
+# MathJax JavaScript
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+  - https://unpkg.com/mermaid@8.4.8/dist/mermaid.min.js
