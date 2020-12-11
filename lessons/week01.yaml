@@ -1,0 +1,30 @@
+title: Introduction to Big Data
+lesson_number: 1
+objectives:
+  - Descriptive, diagnostic, predictive, prescriptive
+  - Two
+  - Three
+readings:
+  - Chapter 1 in **Big Data Science and Analytics**
+#supplemental_readings:
+#  - One
+#  - Two
+#  - Three
+#resources:
+#  - One
+#  - Two
+#  - Three
+exercise:
+  title: Something, something, something
+  description: >
+    This is a bunch of stuff about the
+
+
+    Even more stuff
+discussion:
+  title: Something, something, something
+  description: >
+    Something about ethics or analytics
+  topics:
+    - First topic
+    - Second topic

@@ -1,0 +1,75 @@
+title: Big Data
+school: bellevue.edu
+subject: DSC
+license:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+version: 0.1.0
+credit_hours: 3
+
+description: >
+  With the cost of data storage consistently decreasing, data volumes are increasing and organizations are no
+  longer forced to only store the bare minimum data. This course examines the technology required to analyze and
+  process Big Data. Topics include: Hadoop/MapReduce, Spark/RDD, Spark/Storm Streaming, TensorFlow,
+  Keras/Deep Learning, Kubernetes, and Docker.
+
+prerequisites:
+  - title: Data Mining
+    subject: DSC
+    course_number: 360
+  - title: Data Wrangling for Data Science
+    subject: DSC
+    course_number: 350
+    required: true
+
+objectives:
+  - Objective 1
+  - Objective 2
+  - Objective 3
+  - Objective 4
+
+topic_outline:
+  - title: Introduction to Big Data
+    subtopics:
+      - title: The V's
+      - title: Characteristics
+  - title: Big Data Architecture, Infrastructure, and Patterns
+    subtopics:
+      - title: Kubernetes
+      - title: Hadoop
+  - title: Legal and Ethics
+
+required_resources:
+  - Access the Internet
+  - Access Cyberactive
+  - Access to Github
+  - Access to GitHub account
+  - Collaborate online via video and voice
+
+textbooks:
+  - title: "Big Data Science & Analytics: A Hands-On Approach"
+    short_title: "Big Data Science & Analytics"
+    authors:
+      - Bahga, Arshdeep
+      - Madisetti, Vijay
+    edition: "1st Edition"
+    date: 2016-04-15
+    publisher: VPT
+    isbn10: 0996025537
+    isbn13: 978-0996025539
+#  - title: "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy"
+#    short_title: "Weapons of Math Destruction"
+#    author: O'Neil, Cathy
+#    edition: "1st Edition"
+#    date: 2016-09-06
+#    publisher: Crown
+#    isbn10: 0553418831
+#    isbn13: 978-0553418835
+#    required: false
+grade_breakdown:
+  - component: Discussion
+    point_value: 50
+    number_of_times: 12
+  - component: Exercises
+    point_value: 100
+    number_of_times: 12

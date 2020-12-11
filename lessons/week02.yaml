@@ -1,0 +1,27 @@
+title: Big Data Stacks
+lesson_number: 2
+objectives:
+  - One
+  - Two
+  - Three
+readings:
+  - Chapter 2 in **Big Data Science and Analytics**
+supplemental_readings:
+  - One
+  - Two
+  - Three
+resources:
+  - "[Amazon EMR](https://aws.amazon.com/emr/)"
+  - "[Google Dataproc](https://cloud.google.com/dataproc)"
+  - "[What is Kubernetes?](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)"
+  - "[Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/)"
+  - "[Introducing the PLONK Stack](https://www.openfaas.com/blog/plonk-stack/)"
+  - "[OpenFaaS stack](https://docs.openfaas.com/architecture/stack/)"
+exercise:
+  title: Something, something, something
+discussion:
+  title: Something, something, something
+  description: ""
+  topics:
+    - First topic
+    - Second topic
