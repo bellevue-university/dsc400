@@ -57,15 +57,6 @@ textbooks:
     publisher: VPT
     isbn10: 0996025537
     isbn13: 978-0996025539
-#  - title: "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy"
-#    short_title: "Weapons of Math Destruction"
-#    author: O'Neil, Cathy
-#    edition: "1st Edition"
-#    date: 2016-09-06
-#    publisher: Crown
-#    isbn10: 0553418831
-#    isbn13: 978-0553418835
-#    required: false
 grade_breakdown:
   - component: Discussion
     point_value: 50

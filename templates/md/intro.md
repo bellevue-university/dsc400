@@ -1,3 +1,5 @@
+{{ description }}
+
 # Contents of the Week
 
 - Introduction

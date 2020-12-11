@@ -51,7 +51,7 @@ def build_lesson(lesson):
         template = env.get_template('md/{}'.format(template_name))
         content = template.render(**lesson)
         output_path = output_directory.joinpath(template_name)
-        with open(output_path, 'w') as f:
+        with open(output_path, 'w', encoding='utf-8') as f:
             f.write(content)
 
 
@@ -108,13 +108,14 @@ def build_syllabus(lessons):
         context = yaml.load(f, Loader=yaml.CLoader)
 
     output_directory = build_directory.joinpath('md')
+    output_directory.mkdir(parents=True, exist_ok=True)
     template_name = 'syllabus-part-II.md'
     context['weekly_schedule_table'] = create_weekly_schedule_table(lessons)
     context['grade_breakdown_table'] = create_grade_breakdown_table(context)
     template = env.get_template('md/{}'.format(template_name))
     output_path = output_directory.joinpath(template_name)
 
-    with open(output_path, 'w') as f:
+    with open(output_path, 'w', encoding='utf-8') as f:
         f.write(template.render(**context))
 
 

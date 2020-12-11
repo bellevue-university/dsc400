@@ -1,4 +1,4 @@
-{% if discussion.description %}{{ discussion.description }}{% endif %}
+{% if discussion.instructions %}{{ discussion.instructions }}{% endif %}
 {% for topic in discussion.topics %}
 **Topic {{ loop.index }}**
 

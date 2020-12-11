@@ -1,4 +1,4 @@
-{% if exercise.description %}{{ exercise.description }}{% endif %}
+{% if exercise.instructions %}{{ exercise.instructions }}{% endif %}
 
 You can find a Jupyter notebook for this assignment at `notebooks/assignments/12-week/Assignment {{ '%02d' % lesson_number }}.ipynb` in the [DSC 400 Github repository](https://github.com/bellevue-university/dsc400). Follow the instructions in this notebook to complete the assignment.
 
