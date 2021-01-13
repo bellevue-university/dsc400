@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+import subprocess
 
 import yaml
 from pytablewriter import MarkdownTableWriter
@@ -119,11 +120,47 @@ def build_syllabus(lessons):
         f.write(template.render(**context))
 
 
+def get_markdown_files(md_directory):
+    md_files = [
+        Path(entry.path)
+        for entry in os.scandir(md_directory)
+        if entry.is_file() and entry.name.endswith('.md')
+    ]
+
+    sub_directories = [
+        Path(entry.path)
+        for entry in os.scandir(md_directory)
+        if entry.is_dir()
+    ]
+
+    for sub_directory in sub_directories:
+        md_files.extend(get_markdown_files(sub_directory))
+
+    md_files.sort()
+
+    return md_files
+
+
+def convert_to_html(md_file, md_directory):
+    output_directory = build_directory.joinpath('html', Path(md_file).relative_to(md_directory).parent)
+    output_directory.mkdir(parents=True, exist_ok=True)
+    file_name = '{}.html'.format(Path(md_file).stem)
+    html_path = output_directory.joinpath(file_name)
+
+    cmd = ['pandoc', str(md_file), '-o', str(html_path)]
+
+    subprocess.call(cmd)
+
+
 def main():
     lessons = read_lessons()
     build_syllabus(lessons)
     for lesson in lessons:
         build_lesson(lesson)
+
+    md_directory = build_directory.joinpath('md')
+    for value in get_markdown_files(md_directory):
+        convert_to_html(value, md_directory)
 
 
 if __name__ == '__main__':
