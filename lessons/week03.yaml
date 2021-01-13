@@ -1,25 +1,24 @@
 title: Big Data Patterns
 lesson_number: 3
 objectives:
-  - One
-  - Two
-  - Three
+  - Implement MapReduce patterns in Python
+  - Describe analytics architectural components and design styles
 readings:
   - Chapter 3 in **Big Data Science and Analytics**
 supplemental_readings:
-  - One
-  - Two
-  - Three
-resources:
-  - One
-  - Two
-  - Three
+  - "[CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem)"
+  - "[Fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)"
+  - "[How to beat the CAP theorem](http://nathanmarz.com/blog/how-to-beat-the-cap-theorem.html)"
+  - "[Lambda architecture](https://en.wikipedia.org/wiki/Lambda_architecture)"
+  - "[Space–time tradeoff](https://en.wikipedia.org/wiki/Space%E2%80%93time_tradeoff)"
 exercise:
-  title: Something, something, something
-  description: ""
+  title: MapReduce Patterns in Python
 discussion:
-  title: Something, something, something
-  description: ""
-  topics:
-    - First topic
-    - Second topic
+  title: Analytics Architecture Components & Design Styles
+  description: >
+    The Lambda architecture is a data-processing paradigm that uses three layers:
+    batch processing, speed processing, and a serving layer.
+    Choose an analytics use case and describe how you would implement it using the Lambda architecture.
+    Describe the processing that takes place in each layer.
+    Include details about what data is stored in each layer,
+    the processing required to produce that data, and how users access the data.
