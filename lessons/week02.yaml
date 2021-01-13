@@ -1,11 +1,8 @@
 title: Big Data Stacks
 lesson_number: 2
-description: >
-  Something
 objectives:
-  - One
-  - Two
-  - Three
+  - Compare and contrast big data stacks
+  - Describe how different components of big data stacks integrate with one another to perform a end-to-end big data workflow
 readings:
   - Chapter 2 in **Big Data Science and Analytics**
 supplemental_readings:
@@ -18,10 +15,20 @@ resources:
   - "[Azure products](https://azure.microsoft.com/en-us/services/)"
   - "[Google Cloud products](https://cloud.google.com/products)"
 exercise:
-  title: Evaluating big data stacks
+  title: Creating a Big Data Workflow
 discussion:
-  title: Something, something, something
-  instructions: ""
-  topics:
-    - First topic
-    - Second topic
+  title: Choosing a Big Data Stack
+  instructions: >
+    Choosing a big data stack involves evaluating a multitude of different factors.
+    You will need to decide whether to use a cloud provider, host your
+    infrastructure, or implement a hybrid approach. You will need to determine which
+    parts of the stack are most important to the use cases you care about.
+    You will need to evaluate technical criteria such as programming language support and how well the stack
+    integrates with other technologies. There may additional, non-technical criteria for you to consider.
+    For instance, does your project or organization require vendor support, and does your project or
+    organization have a policy towards open-source or commercial software?
+
+
+    Choose a big data stack for use in an organization or project.
+    Describe which components of the stack are most useful for your use cases.
+    List the criteria you used to evaluate the stack and summarize why you chose this stack over the alternatives.
