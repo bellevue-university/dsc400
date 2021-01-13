@@ -1,19 +1,18 @@
 title: Introduction to Big Data
 lesson_number: 1
-description: >
-  Something
 objectives:
-  - Create a basic end-to-end analytics workflow
+  - Design a simple end-to-end big data analysis workflows using various analytics workflow patterns
   - Describe the differences between descriptive, diagnostic, predictive, and prescriptive analytics
-  - Estimate the key metrics of big data sources including storage and bandwidth requirements
-  - Understand how to big data applies to a specific industry or domain
+  - Estimate the key metrics associated with big data workflows including storage and bandwidth requirements
+  - Develop big data analytics use cases for a specific industry or domain of interest
 readings:
   - Chapter 1 in **Big Data Science and Analytics**
 exercise:
-  title: Characteristics of big data
+  title: Characteristics of Big Data
 discussion:
   title: Big data applications and use cases
   instructions: >
-    Research a domain-specific application of big data.
+    Research applications of big data analysis for a specific subject area.
     You can pick an example from the book or a domain that is of personal interest.
     Discuss how big data is being used or could be used in that domain.
+    Provide metrics that describe the volume, velocity, and variety of the datasets involved.
