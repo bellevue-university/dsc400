@@ -1,25 +1,25 @@
 title: NoSQL Databases
 lesson_number: 4
 objectives:
-  - One
-  - Two
-  - Three
+  - Write Python code that reads and writes data from key-value, document, column-oriented, and graph databases
+  - Identify what kinds of problems NoSQL databases make it easier to solve
+  - Describe the trade-offs involved in using NoSQL databases
 readings:
   - Chapter 4 in **Big Data Science and Analytics**
-supplemental_readings:
-  - One
-  - Two
-  - Three
 resources:
-  - One
-  - Two
-  - Three
+  - "[A Tour of Dgraph](https://dgraph.io/tour/)"
+  - "[Amazon DynamoDB](https://aws.amazon.com/dynamodb/)"
+  - "[ClickHouse F.A.Q](https://clickhouse.tech/docs/en/faq/)"
+  - "[Druid Use Cases](https://druid.apache.org/use-cases)"
+  - "[Graph Database Use Cases](https://neo4j.com/use-cases/)"
+  - "[MongoDB Use Cases](https://www.mongodb.com/use-cases)"
+  - "[Project Voldemort Design](http://www.project-voldemort.com/voldemort/design.html)"
 exercise:
-  title: Something, something, something
-  description: ""
+  title: Working with NoSQL Databases
 discussion:
-  title: Something, something, something
-  description: ""
-  topics:
-    - First topic
-    - Second topic
+  title: NoSQL Use Cases
+  instructions: >
+    Pick one of NoSQL database types (i.e. key-value, document, column-oriented, or graph) and research use cases
+    for that type of database. Using those use cases as a guide, develop your own use case using a dataset and
+    domain that is of interest to you. Describe the advantages and
+    disadvantages of using a NoSQL database for this use case.
