@@ -1,25 +1,41 @@
-title: Data Acquisition
+title: Data Acquisition and Big Data Storage
 lesson_number: 5
 objectives:
-  - One
-  - Two
-  - Three
+  - Compare and contrast different data storage mechanisms to determine which storage types are suited to which use cases
+  - Perform data acquisition from multiple sources including message queues and databases
+  - Develop custom data acquisition connectors
+  - Use various data serialization formats to transport and store data
 readings:
-  - Chapter 5 in **Big Data Science and Analytics**
-supplemental_readings:
-  - One
-  - Two
-  - Three
+  - Chapters 5 & 6 in **Big Data Science and Analytics**
 resources:
-  - One
-  - Two
-  - Three
+ - "[Awesome Data Engineering](https://github.com/igorbarinov/awesome-data-engineering)"
+ - "[Ceph Storage](https://ceph.io/ceph-storage/)"
+ - "[File storage, block storage, or object storage?](https://www.redhat.com/en/topics/data-storage/file-block-object-storage)"
+ - "[HDFS Architecture](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html)"
+ - "[Kafka JDBC Connector](https://docs.confluent.io/2.0.0/connect/connect-jdbc/docs/index.html)"
+ - "[MinIO Object Storage](https://min.io/product/overview)"
+ - "[What is Cloud Storage?](https://aws.amazon.com/what-is-cloud-storage/)"
+ - "[What is Cloud Object Storage?](https://aws.amazon.com/what-is-cloud-object-storage/)"
+ - "[What is a Data Lake?](https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/)"
 exercise:
-  title: Something, something, something
-  description: ""
+  title: Acquiring and Storing Data
 discussion:
-  title: Something, something, something
-  description: ""
+  title: Comparing Data Storage Options
+  instructions: >
+    There are three common ways to store in modern storage devices: file storage, block storage, and object storage.
+
+
+    *File storage* organizes data hierarchically into files and folders. Desktop operating systems, such as Microsoft Windows and macOS, use non-distributed file systems that store files on the local machine. As an example, Microsoft Windows uses the NT File System (NTFS) and macOS uses the Apple File System (APFS). The Hadoop Distributed File System (HDFS) is an example of a distributed file system. Instead of storing data on a single computer, HDFS redundantly stores data across multiple computers.
+
+
+    *Block storage* stores data in fixed-sized chunks called blocks. Block storage is similar to an unformatted hard drive. iSCSI is an example of a protocol for providing block-level access to a storage-area network (SAN). Amazon Elastic Block Storage and Google Cloud Persistent Disks are examples of cloud-based block storage.
+
+
+    *Object storage* is similar to file storage, but typically contains additional metadata, a globally unique identifier, and is accessible using an HTTP application programming interface (API). Amazon Simple Storage Service (S3) is an example of cloud-based object storage.
+
+
+    Choose one of the following topics for this week's discussion board post.
   topics:
-    - First topic
-    - Second topic
+    - Hadoop and Spark applications can process data stored in either HDFS or S3. Describe the advantages and disadvantages of choosing one storage type over the other. Describe the trade-offs in terms of performance, functionality, and complexity.
+    - A data lake is a centralized location for storing all of an organization's structured and unstructured data. Describe how you would implement a data lake using either object storage (e.g. Amazon S3) or distributed file storage (e.g. HDFS). Tailor your description for a particular organization. Include details on how to acquire data from different data sources, how to store and organize the data, and what kinds of applications you could build using data from the data lake.
+    - Block storage is ideal for applications such as databases that require consistent performance. What are the metrics and other considerations to consider when evaluating block storage? In what situations would you choose block storage over object storage? Similarly, in what situations would you choose object storage over block storage?
