@@ -1,24 +1,18 @@
 title: Big Data Storage and Batch Processing
 lesson_number: 7
 objectives:
-  - One
-  - Two
-  - Three
+  - Apply processing to streaming data input sources using windowing and streaming queries and write results to an output sink
+  - Evaluate stream processing case studies and use cases to determine when to use stream processing and when to use batch processing
 readings:
-  - Chapters 6 & 7 in **Big Data Science and Analytics**
-supplemental_readings:
-  - One
-  - Two
-  - Three
+  - Chapter 8 in **Big Data Science and Analytics**
 resources:
-  - One
-  - Two
-  - Three
+ - "[Apache Druid FAQs](https://druid.apache.org/faq)"
+ - "[Apache Kylin FAQs](http://kylin.apache.org/docs/gettingstarted/faq.html)"
+ - "[Apache Samza Case Studies](http://samza.apache.org/case-studies/)"
+ - "[Spark Structured Streaming Programming Guide](http://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)"
 exercise:
-  title: Something, something, something
+  title: Stream Processing with Spark
 discussion:
-  title: Something, something, something
-  instructions: ""
-  topics:
-    - First topic
-    - Second topic
+  title: Stream Processing Use Cases
+  instructions: >
+    Read about the case studies found in "[Apache Samza Case Studies](http://samza.apache.org/case-studies/)". Using these case studies as a guide, describe a use case that uses stream processing. Pick a use case from your personal, professional, or educational background. Describe the inputs and outputs of your stream processing use case. What are the advantages of using stream processing for this use case instead of batch processing?
