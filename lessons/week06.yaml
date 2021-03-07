@@ -1,24 +1,45 @@
-title: Big Data Storage and Batch Processing
+title: Batch Processing
 lesson_number: 6
 objectives:
-  - One
-  - Two
-  - Three
+  - Develop and execute batch processing workflows using Python and Apache Spark
+  - Describe how to use a workflow engine to execute multistep jobs as a directed acyclic graph (DAG) of related tasks
+  - Create a search index from text extracted from documents and use the index to perform full-text queries
 readings:
-  - Chapters 6 & 7 in **Big Data Science and Analytics**
-supplemental_readings:
-  - One
-  - Two
-  - Three
+  - Chapter 7 in **Big Data Science and Analytics**
 resources:
-  - One
-  - Two
-  - Three
+  - "[Awesome Data Engineering](https://github.com/igorbarinov/awesome-data-engineering)"
+  - "[Awesome Workflow Engines](https://github.com/meirwah/awesome-workflow-engines)"
 exercise:
-  title: Something, something, something
+  title: Batch Processing with Python
 discussion:
-  title: Something, something, something
-  instructions: ""
-  topics:
-    - First topic
-    - Second topic
+  title: Designing a Recurring Batch Workflow
+  instructions: >
+    Create a diagram for a batch processing workflow for a common, recurring data science job. Choose a workflow from your personal, professional, or educational background. Describe the inputs and output of each task. You can think of each task as though it is a Python function that takes one or more inputs and returns an output.
+
+
+    There are multiple options available for creating workflow diagrams. [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software), and [yEd](https://www.yworks.com/products/yed), and [diagrams.net](https://app.diagrams.net/) are traditional, graphical drag-and-drop applications for creating diagrams.
+
+
+    Alternatively,
+    [Graphviz](https://graphviz.org/) and [Mermaid](https://mermaid-js.github.io/) are excellent options if you prefer to create diagrams using text and code. You can use the [Mermaid live editor](https://mermaid-js.github.io/) if you want to create diagrams online. The following is an example of the code used to create the morning routine workflow used in this lesson.
+
+
+    ```
+
+    graph TD;
+        A[Wake Up]-->B[Get out of Bed];
+        B--->C[Exercise];
+        B-->D[Make Bed];
+        C-->E[Take a Shower];
+        E-->F[Get Dressed];
+        C-->G[Eat Breakfast];
+        G-->H[Brush Teeth];
+        F-->I[Comb Hair];
+        B-->J[Listen to a News Podcast];
+        I-->K[Lock the Doors];
+        D-->K;
+        H-->K;
+        K-->L[Drive to Work];
+        L-->M[Arrive at Work];
+        J-->M;
+    ```
