@@ -8,15 +8,15 @@ objectives:
 readings:
   - Chapters 5 & 6 in **Big Data Science and Analytics**
 resources:
- - "[Awesome Data Engineering](https://github.com/igorbarinov/awesome-data-engineering)"
- - "[Ceph Storage](https://ceph.io/ceph-storage/)"
- - "[File storage, block storage, or object storage?](https://www.redhat.com/en/topics/data-storage/file-block-object-storage)"
- - "[HDFS Architecture](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html)"
- - "[Kafka JDBC Connector](https://docs.confluent.io/2.0.0/connect/connect-jdbc/docs/index.html)"
- - "[MinIO Object Storage](https://min.io/product/overview)"
- - "[What is Cloud Storage?](https://aws.amazon.com/what-is-cloud-storage/)"
- - "[What is Cloud Object Storage?](https://aws.amazon.com/what-is-cloud-object-storage/)"
- - "[What is a Data Lake?](https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/)"
+  - "[Awesome Data Engineering](https://github.com/igorbarinov/awesome-data-engineering)"
+  - "[Ceph Storage](https://ceph.io/ceph-storage/)"
+  - "[File storage, block storage, or object storage?](https://www.redhat.com/en/topics/data-storage/file-block-object-storage)"
+  - "[HDFS Architecture](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html)"
+  - "[Kafka JDBC Connector](https://docs.confluent.io/2.0.0/connect/connect-jdbc/docs/index.html)"
+  - "[MinIO Object Storage](https://min.io/product/overview)"
+  - "[What is Cloud Storage?](https://aws.amazon.com/what-is-cloud-storage/)"
+  - "[What is Cloud Object Storage?](https://aws.amazon.com/what-is-cloud-object-storage/)"
+  - "[What is a Data Lake?](https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/)"
 exercise:
   title: Acquiring and Storing Data
 discussion:

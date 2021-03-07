@@ -6,10 +6,10 @@ objectives:
 readings:
   - Chapter 8 in **Big Data Science and Analytics**
 resources:
- - "[Apache Druid FAQs](https://druid.apache.org/faq)"
- - "[Apache Kylin FAQs](http://kylin.apache.org/docs/gettingstarted/faq.html)"
- - "[Apache Samza Case Studies](http://samza.apache.org/case-studies/)"
- - "[Spark Structured Streaming Programming Guide](http://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)"
+  - "[Apache Druid FAQs](https://druid.apache.org/faq)"
+  - "[Apache Kylin FAQs](http://kylin.apache.org/docs/gettingstarted/faq.html)"
+  - "[Apache Samza Case Studies](http://samza.apache.org/case-studies/)"
+  - "[Spark Structured Streaming Programming Guide](http://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)"
 exercise:
   title: Stream Processing with Spark
 discussion:
