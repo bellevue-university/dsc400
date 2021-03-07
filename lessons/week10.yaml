@@ -1,24 +1,16 @@
-title: Big Data Storage and Batch Processing
+title: Big Data Analytics - Part II
 lesson_number: 10
 objectives:
-  - One
-  - Two
-  - Three
+  - Train classification and regression machine learning models using Spark
+  - Describe how recent advances in deep learning can solve problems that are difficult to solve using conventional machine learning techniques
 readings:
-  - Chapters 6 & 7 in **Big Data Science and Analytics**
-supplemental_readings:
-  - One
-  - Two
-  - Three
+  - Sections 11.4 through 11.7 in **Big Data Science and Analytics**
+  - "[Dive Into Deep Learning - Introduction](https://d2l.ai/chapter_introduction/index.html)"
 resources:
-  - One
-  - Two
-  - Three
+  - "[Spark MLlib Classification and Regression](http://spark.apache.org/docs/latest/ml-classification-regression.html)"
 exercise:
-  title: Something, something, something
+  title: Classification and Regression in Spark
 discussion:
-  title: Something, something, something
-  instructions: ""
-  topics:
-    - First topic
-    - Second topic
+  title: Deep Learning Applications
+  instructions: >
+    Recent advances in both hardware and algorithms allow deep neural networks to solve a wide range of problems that are difficult to solve with traditional machine learning algorithms. [The introduction chapter](https://d2l.ai/chapter_introduction/index.html) to the [Dive Into Deep Learning](https://d2l.ai/) book provides an overview of deep learning and the type of problems it excels at solving. Using this chapter as a guide, pick a use case where you could use deep learning to solve a difficult problem. Describe the problem you are trying to solve and the difficulties associated with solving it using conventional methods. What kind of deep learning model do you use to solve this problem? How much data do you require to train the model?
