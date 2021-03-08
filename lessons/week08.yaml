@@ -1,24 +1,21 @@
-title: Big Data Storage and Batch Processing
+title: Interactive Querying
 lesson_number: 8
 objectives:
-  - One
-  - Two
-  - Three
+  - Develop SQL statements to interactively query data in Spark SQL and traditional relational databases
+  - Create views of underlying data sources that can be used to fuel reports and business intelligence systems
+  - Describe interactive query tool use cases
 readings:
-  - Chapters 6 & 7 in **Big Data Science and Analytics**
-supplemental_readings:
-  - One
-  - Two
-  - Three
+  - Chapter 9 in **Big Data Science and Analytics**
 resources:
-  - One
-  - Two
-  - Three
+  - "[Apache Drill FAQ](https://drill.apache.org/faq/)"
+  - "[Apache Presto Use Cases](https://prestodb.io/docs/current/overview/use-cases.html)"
+  - "[Amazon Redshift Use Cases](https://aws.amazon.com/redshift/customer-success/?awsf.customer-references-product=product%23redshift)"
+  - "[Google BigQuery Use Cases](https://cloud.google.com/bigquery#section-6)"
+  - "[Introduction to Presto](https://prestodb.io/overview.html)"
+  - "[Spark SQL, DataFrames and Datasets Guide](http://spark.apache.org/docs/latest/sql-programming-guide.html)"
 exercise:
-  title: Something, something, something
+  title: Interactive Querying with Spark SQL
 discussion:
-  title: Something, something, something
-  instructions: ""
-  topics:
-    - First topic
-    - Second topic
+  title: Interactive Querying Tool Use Cases
+  instructions: >
+    Interactive query tools, such as Google BigQuery and Amazon Redshift, provide a simple way for data scientists, data analysts, and business intelligence analysts to perform ad-hoc analysis of large datasets. Use an example from your personal, professional, or educational interests and describe how you could use an interactive query tool to perform analysis. Describe the datasets and how they were obtained or prepared. Discuss why you would choose to use a SQL-based query tool for analysis instead of Python or R.
