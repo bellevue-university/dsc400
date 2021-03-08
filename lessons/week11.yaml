@@ -1,24 +1,23 @@
-title: Big Data Storage and Batch Processing
+title: Data Visualization and Reporting
 lesson_number: 11
 objectives:
-  - One
-  - Two
-  - Three
+  - Build dashboards and reports that present the results of big data analysis to non-technical end-users
+  - Evaluate, compare, and contrast data visualization and business intelligence tools and how to use them to make sense of large data sets
 readings:
-  - Chapters 6 & 7 in **Big Data Science and Analytics**
-supplemental_readings:
-  - One
-  - Two
-  - Three
+  - Chapter 12 in **Big Data Science and Analytics**
 resources:
-  - One
-  - Two
-  - Three
+  - "[Apache Superset](https://superset.apache.org/)"
+  - "[Apache Superset Supported Databases and Dependecies](https://superset.apache.org/docs/databases/installing-database-drivers#supported-databases-and-dependecies)"
+  - "[Apache Superset Gallery](https://superset.apache.org/gallery/)"
+  - "[Bokeh Demo Applications](https://demo.bokeh.org/)"
+  - "[Bokeh Gallery](https://docs.bokeh.org/en/latest/docs/gallery.html)"
+  - "[IPython Vega](https://github.com/vega/ipyvega)"
+  - "[Redash Case Studies](https://redash.io/case-studies/)"
+  - "[Redash Supported Data Sources](https://redash.io/help/data-sources/querying/supported-data-sources)"
+  - "[Redash Visualization Types](https://redash.io/help/user-guide/visualizations/visualization-types)"
 exercise:
-  title: Something, something, something
+  title: Building Data Dashboards and Reports
 discussion:
-  title: Something, something, something
-  instructions: ""
-  topics:
-    - First topic
-    - Second topic
+  title: Data Visualization and Reporting Tools
+  instructions: >
+    Pick a real-world example of a report, visualization, or dashboard to share with your classmates. You can pick a publically accessible example or an example from your personal or professional experience. Describe the data and process used to create the visualization. How is this visualization or report used to make real-world decisions?
