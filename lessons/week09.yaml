@@ -1,24 +1,30 @@
-title: Big Data Storage and Batch Processing
+title: Big Data Analytics - Part I
 lesson_number: 9
 objectives:
-  - One
-  - Two
-  - Three
+  - Evaluate, compare, and contrast big data analytics frameworks to determine their strengths and limitations
+  - Analyze unlabelled data sets using clustering algorithms
+  - Describe use cases for big data analytics
 readings:
-  - Chapters 6 & 7 in **Big Data Science and Analytics**
-supplemental_readings:
-  - One
-  - Two
-  - Three
+  - Sections 11.1 through 11.3 in **Big Data Science and Analytics**
 resources:
-  - One
-  - Two
-  - Three
+ - "[H2O](https://www.h2o.ai/products/h2o/)"
+ - "[H2O AutoML](https://www.h2o.ai/products/h2o-automl/)"
+ - "[H2O Sparkling Water](https://www.h2o.ai/products/h2o-sparkling-water/)"
+ - "[Kubeflow Overview](https://www.kubeflow.org/docs/started/kubeflow-overview/)"
+ - "[PyTorch](https://pytorch.org/)"
+ - "[scikit-learn](https://scikit-learn.org/stable/)"
+ - "[Spark MLlib Clustering](http://spark.apache.org/docs/latest/ml-clustering.html)"
+ - "[TensorFlow Case Studies](https://www.tensorflow.org/about/case-studies)"
+ - "[Why Choose Keras?](https://keras.io/why_keras/)"
 exercise:
-  title: Something, something, something
+  title: Clustering with Spark
 discussion:
-  title: Something, something, something
-  instructions: ""
-  topics:
-    - First topic
-    - Second topic
+  title: Big Data Analytics Frameworks
+  instructions: >
+    Before the introduction of Hadoop in April 2006, writing software for distributed data processing was complex and involved writing low-level, highly specialized code. Hadoop programs simplified distributed batch computations by using the map-reduce paradigm. The original Hadoop distribution required programmers to develop map-reduce programs using Java code. As the Hadoop distribution evolved, tools such as Hive and Pig made Hadoop programs easier to develop by introducing SQL and SQL-like languages. This made it possible for non-programmers to process big data sets. Similarly, the Apache Mahout library, released in April 2009, simplified the development of processing requiring machine learning, linear algebra, and statistics.
+
+
+    Today there exists a wide variety of frameworks dedicated to performing machine learning and analytics on large data sets. These include all-encompassing frameworks like [Apache Spark](http://spark.apache.org/) and [H2O](https://www.h2o.ai/products/h2o/). It also includes more specialized frameworks like [TensorFlow](https://www.tensorflow.org/) which is focused on deep learning.
+
+
+    Pick a big data analytics tool or framework and discuss the benefits and drawbacks of using this tool for your analytics workflows. The software can be open source or proprietary. What are the limitations of this tool? How does it compare to other big data analytics tools?
