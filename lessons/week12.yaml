@@ -1,24 +1,61 @@
-title: Big Data Storage and Batch Processing
+title: Deploying Big Data Products
 lesson_number: 12
 objectives:
-  - One
-  - Two
-  - Three
+  - Evaluate, compare, and contrast methods of deploying big data products including REST APIs, serverless functions, and RPC frameworks
+  - Deploy a machine learning model using batch processing, RPC, or REST API
 readings:
-  - Chapters 6 & 7 in **Big Data Science and Analytics**
+  - Chapter 10 in **Big Data Science and Analytics**
 supplemental_readings:
-  - One
-  - Two
-  - Three
+  - "[Guide to GitOps](https://www.weave.works/technologies/gitops/)"
+  - "[Is GitOps the next big thing in DevOps?](https://www.atlassian.com/git/tutorials/gitops)"
+  - "[Scaling Seldon Core Deployments with CI / CD](https://docs.seldon.io/projects/seldon-core/en/latest/analytics/cicd-mlops.html)"
+  - "[What is GitOps?](https://about.gitlab.com/topics/gitops/)"
 resources:
-  - One
-  - Two
-  - Three
+ - "[AWS Lambda](https://aws.amazon.com/lambda/)"
+ - "[Hug](https://hugapi.github.io/hug/)"
+ - "[Kubeflow Overview](https://www.kubeflow.org/docs/started/kubeflow-overview/)"
+ - "[Kubeflow Use Cases](https://www.kubeflow.org/docs/about/use-cases/)"
+ - "[Multi Model Server](https://github.com/awslabs/multi-model-server)"
+ - "[RPyC](https://rpyc.readthedocs.io/en/latest/)"
+ - "[Seldon Core](https://docs.seldon.io/projects/seldon-core/en/latest/)"
+ - "[TensorFlow Lite Example Apps](https://www.tensorflow.org/lite/examples)"
+ - "[TensorFlow.js Demos](https://www.tensorflow.org/js/demos)"
 exercise:
-  title: Something, something, something
+  title: Deploying Machine Learning Models
 discussion:
-  title: Something, something, something
-  instructions: ""
-  topics:
-    - First topic
-    - Second topic
+  title: Automating Deployments
+  instructions: |
+    The following is an abridged version of the directory structure from [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/). This directory structure represents a standardized way of organizing the code, data, and models for a typical data science project.
+
+    ```
+    ├── data
+    │   ├── external       <- Data from third party sources.
+    │   ├── interim        <- Intermediate data that has been transformed.
+    │   ├── processed      <- The final, canonical data sets for modeling.
+    │   └── raw            <- The original, immutable data dump.
+    ├── data
+    │   ├── external       <- Data from third party sources.
+    │   ├── interim        <- Intermediate data that has been transformed.
+    │   ├── processed      <- The final, canonical data sets for modeling.
+    │   └── raw            <- The original, immutable data dump.
+    ├── models             <- Trained models, predictions, or summaries
+    ├── reports            <- Generated analysis
+    │   └── figures        <- Generated graphics
+    ├── src                <- Source code for use in this project.
+    │   ├── __init__.py    <- Makes src a Python module
+    │   │
+    │   ├── data           <- Scripts to download or generate data
+    │   │   └── make_dataset.py
+    │   │
+    │   ├── features       <- Scripts to turn raw data into features for modeling
+    │   │   └── build_features.py
+    │   │
+    │   ├── models         <- Scripts to train models and then
+    │   │   │                 use trained models to make predictions
+    │   │   ├── predict_model.py
+    │   │   └── train_model.py
+    ```
+
+    Using this template, building and deploying a pipeline for a single machine learning model is a relatively straightforward process. A typical pipeline involves writing code to pre-process the data. The next stage of the pipeline usually involves code to extract features from the pre-processed data. These features serve as the input to machine learning algorithms which create a model as an output. The models and code used to generate the models are stored in git repository. Since the models and code are under version control, this means it is easy to go back to an earlier version of a model.
+
+    Starting with the [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/) as a starting guide, how could you use GitOps to automate the process of training and deploying models? How would that process work with a workflow engine like [Apache Airflow](https://airflow.apache.org/)?

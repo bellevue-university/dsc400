@@ -18,6 +18,13 @@ env = Environment(
 )
 
 
+def fix_lesson_12(lesson):
+    if lesson['lesson_number'] == 12:
+        md_path = lessons_directory.joinpath('week12.md')
+        with open(md_path) as f:
+            lesson['discussion']['instructions'] = f.read()
+
+
 def read_lessons():
     lesson_files = [
         Path(entry.path)
@@ -30,6 +37,8 @@ def read_lessons():
     for lesson_path in lesson_files:
         with open(lesson_path) as f:
             lesson = yaml.load(f, Loader=yaml.CLoader)
+        # FIXME: Hack fix for lesson 12 loading
+        fix_lesson_12(lesson)
         lessons.append(lesson)
 
     return lessons
@@ -152,6 +161,17 @@ def convert_to_html(md_file, md_directory):
     subprocess.call(cmd)
 
 
+def convert_to_docx(md_file, md_directory):
+    output_directory = build_directory.joinpath('docx', Path(md_file).relative_to(md_directory).parent)
+    output_directory.mkdir(parents=True, exist_ok=True)
+    file_name = '{}.docx'.format(Path(md_file).stem)
+    docx_path = output_directory.joinpath(file_name)
+
+    cmd = ['pandoc', str(md_file), '-o', str(docx_path)]
+
+    subprocess.call(cmd)
+
+
 def main():
     lessons = read_lessons()
     build_syllabus(lessons)
@@ -161,6 +181,7 @@ def main():
     md_directory = build_directory.joinpath('md')
     for value in get_markdown_files(md_directory):
         convert_to_html(value, md_directory)
+        convert_to_docx(value, md_directory)
 
 
 if __name__ == '__main__':
