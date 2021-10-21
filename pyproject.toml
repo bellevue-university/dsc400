@@ -27,6 +27,7 @@ zerorpc = "^0.6.3"
 graphviz = "^0.17"
 Jinja2 = "^3.0.2"
 Faker = "^9.5.2"
+tabulate = "^0.8.9"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

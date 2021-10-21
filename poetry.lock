@@ -1592,6 +1592,17 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
+name = "tabulate"
+version = "0.8.9"
+description = "Pretty-print tabular data"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+widechars = ["wcwidth"]
+
+[[package]]
 name = "tenacity"
 version = "8.0.1"
 description = "Retry code until it succeeds"
@@ -1899,7 +1910,7 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "8bc087e17e38d88bf7614397ad379470565b85a25e18b730f04c29eeb4ca80bd"
+content-hash = "315190db901c7701fd17988b8a7c119d7ee459b59acbd5c55b834979d7eaef7d"
 
 [metadata.files]
 absl-py = [
@@ -3139,6 +3150,10 @@ six = [
 sniffio = [
     {file = "sniffio-1.2.0-py3-none-any.whl", hash = "sha256:471b71698eac1c2112a40ce2752bb2f4a4814c22a54a3eed3676bc0f5ca9f663"},
     {file = "sniffio-1.2.0.tar.gz", hash = "sha256:c4666eecec1d3f50960c6bdf61ab7bc350648da6c126e3cf6898d8cd4ddcd3de"},
+]
+tabulate = [
+    {file = "tabulate-0.8.9-py3-none-any.whl", hash = "sha256:d7c013fe7abbc5e491394e10fa845f8f32fe54f8dc60c6622c6cf482d25d47e4"},
+    {file = "tabulate-0.8.9.tar.gz", hash = "sha256:eb1d13f25760052e8931f2ef80aaf6045a6cceb47514db8beab24cded16f13a7"},
 ]
 tenacity = [
     {file = "tenacity-8.0.1-py3-none-any.whl", hash = "sha256:f78f4ea81b0fabc06728c11dc2a8c01277bfc5181b321a4770471902e3eb844a"},
