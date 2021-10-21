@@ -23,6 +23,8 @@ diagrams = "^0.20.0"
 keras = "^2.6.0"
 tensorflow = "^2.6.0"
 pydot = "^1.4.2"
+Pillow = "^8.4.0"
+zerorpc = "^0.6.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
