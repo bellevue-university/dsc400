@@ -1,0 +1,185 @@
+id,gift_id,villager_id
+0,Amethyst,Abigail
+1,Banana Pudding,Abigail
+2,Blackberry Cobbler,Abigail
+3,Chocolate Cake,Abigail
+4,Pufferfish,Abigail
+5,Pumpkin,Abigail
+6,Spicy Eel,Abigail
+7,Complete Breakfast,Alex
+8,Salmon Dinner,Alex
+9,Fish Taco,Caroline
+10,Green Tea,Caroline
+11,Summer Spangle,Caroline
+12,Tropical Curry,Caroline
+13,Amethyst,Clint
+14,Aquamarine,Clint
+15,Artichoke Dip,Clint
+16,Emerald,Clint
+17,Fiddlehead Risotto,Clint
+18,Gold Bar,Clint
+19,Iridium Bar,Clint
+20,Jade,Clint
+21,Omni Geode,Clint
+22,Ruby,Clint
+23,Topaz,Clint
+24,Bean Hotpot,Demetrius
+25,Ice Cream,Demetrius
+26,Rice Pudding,Demetrius
+27,Strawberry,Demetrius
+28,Amethyst,Dwarf
+29,Aquamarine,Dwarf
+30,Emerald,Dwarf
+31,Jade,Dwarf
+32,Lemon Stone,Dwarf
+33,Omni Geode,Dwarf
+34,Ruby,Dwarf
+35,Topaz,Dwarf
+36,Crab Cakes,Elliott
+37,Duck Feather,Elliott
+38,Lobster,Elliott
+39,Pomegranate,Elliott
+40,Squid Ink,Elliott
+41,Tom Kha Soup,Elliott
+42,Amethyst,Emily
+43,Aquamarine,Emily
+44,Cloth,Emily
+45,Emerald,Emily
+46,Jade,Emily
+47,Ruby,Emily
+48,Survival Burger,Emily
+49,Topaz,Emily
+50,Wool,Emily
+51,Beet,Evelyn
+52,Chocolate Cake,Evelyn
+53,Diamond,Evelyn
+54,Fairy Rose,Evelyn
+55,Stuffing,Evelyn
+56,Tulip,Evelyn
+57,Fried Mushroom,George
+58,Leek,George
+59,Diamond,Gus
+60,Escargot,Gus
+61,Fish Taco,Gus
+62,Orange,Gus
+63,Tropical Curry,Gus
+64,Coconut,Haley
+65,Fruit Salad,Haley
+66,Pink Cake,Haley
+67,Sunflower,Haley
+68,Coffee,Harvey
+69,Pickles,Harvey
+70,Super Meal,Harvey
+71,Truffle Oil,Harvey
+72,Wine,Harvey
+73,Void Mayonnaise,Henchman
+74,Fairy Rose,Jas
+75,Pink Cake,Jas
+76,Plum Pudding,Jas
+77,Chocolate Cake,Jodi
+78,Crispy Bass,Jodi
+79,Diamond,Jodi
+80,Eggplant Parmesan,Jodi
+81,Fried Eel,Jodi
+82,Pancakes,Jodi
+83,Rhubarb Pie,Jodi
+84,Vegetable Medley,Jodi
+85,Fiddlehead Risotto,Kent
+86,Roasted Hazelnuts,Kent
+87,Diamond,Krobus
+88,Iridium Bar,Krobus
+89,Pumpkin,Krobus
+90,Void Egg,Krobus
+91,Void Mayonnaise,Krobus
+92,Wild Horseradish,Krobus
+93,Goat Cheese,Leah
+94,Poppyseed Muffin,Leah
+95,Salad,Leah
+96,Stir Fry,Leah
+97,Truffle,Leah
+98,Vegetable Medley,Leah
+99,Wine,Leah
+100,Duck Feather,Leo
+101,Mango,Leo
+102,Ostrich Egg,Leo
+103,Poi,Leo
+104,Autumn's Bounty,Lewis
+105,Glazed Yams,Lewis
+106,Green Tea,Lewis
+107,Hot Pepper,Lewis
+108,Vegetable Medley,Lewis
+109,Blueberry Tart,Linus
+110,Cactus Fruit,Linus
+111,Coconut,Linus
+112,Dish O' The Sea,Linus
+113,Yam,Linus
+114,Diamond,Marnie
+115,Farmer's Lunch,Marnie
+116,Pink Cake,Marnie
+117,Pumpkin Pie,Marnie
+118,Battery Pack,Maru
+119,Cauliflower,Maru
+120,Cheese Cauliflower,Maru
+121,Diamond,Maru
+122,Gold Bar,Maru
+123,Iridium Bar,Maru
+124,Miner's Treat,Maru
+125,Pepper Poppers,Maru
+126,Radioactive Bar,Maru
+127,Rhubarb Pie,Maru
+128,Strawberry,Maru
+129,Beer,Pam
+130,Cactus Fruit,Pam
+131,Glazed Yams,Pam
+132,Mead,Pam
+133,Pale Ale,Pam
+134,Parsnip,Pam
+135,Parsnip Soup,Pam
+136,Piña Colada,Pam
+137,Diamond,Penny
+138,Emerald,Penny
+139,Melon,Penny
+140,Poppy,Penny
+141,Poppyseed Muffin,Penny
+142,Red Plate,Penny
+143,Roots Platter,Penny
+144,Sandfish,Penny
+145,Tom Kha Soup,Penny
+146,Fried Calamari,Pierre
+147,Goat Cheese,Robin
+148,Peach,Robin
+149,Spaghetti,Robin
+150,Cactus Fruit,Sam
+151,Maple Bar,Sam
+152,Pizza,Sam
+153,Tigerseye,Sam
+154,Crocus,Sandy
+155,Daffodil,Sandy
+156,Mango Sticky Rice,Sandy
+157,Sweet Pea,Sandy
+158,Frozen Tear,Sebastian
+159,Obsidian,Sebastian
+160,Pumpkin Soup,Sebastian
+161,Sashimi,Sebastian
+162,Void Egg,Sebastian
+163,Beer,Shane
+164,Hot Pepper,Shane
+165,Pepper Poppers,Shane
+166,Pizza,Shane
+167,Cranberry Candy,Vincent
+168,Ginger Ale,Vincent
+169,Grape,Vincent
+170,Pink Cake,Vincent
+171,Snail,Vincent
+172,Catfish,Willy
+173,Diamond,Willy
+174,Iridium Bar,Willy
+175,Mead,Willy
+176,Octopus,Willy
+177,Pumpkin,Willy
+178,Sea Cucumber,Willy
+179,Sturgeon,Willy
+180,Purple Mushroom,Wizard
+181,Solar Essence,Wizard
+182,Super Cucumber,Wizard
+183,Void Essence,Wizard
