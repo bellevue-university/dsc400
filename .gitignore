@@ -134,3 +134,6 @@ _build/
 
 # Jetbrains
 .idea/
+
+# Grading
+grading/
