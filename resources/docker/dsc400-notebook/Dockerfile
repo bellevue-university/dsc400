@@ -16,10 +16,6 @@ RUN apt-get update --yes && \
     graphviz && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Configure IPython system-wide
-#COPY ipython_kernel_config.py "/etc/ipython/"
-#RUN fix-permissions "/etc/ipython/"
-
 USER ${NB_UID}
 
 # Install libraries with Mamba
@@ -62,6 +58,12 @@ RUN pip install --quiet --no-cache-dir \
     'keras' && \
     fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}"
+
+USER root
+
+# Configure IPython system-wide
+COPY ipython_kernel_config.py "/etc/ipython/"
+RUN fix-permissions "/etc/ipython/"
 
 USER $NB_UID
 WORKDIR "${HOME}"
