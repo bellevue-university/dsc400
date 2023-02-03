@@ -67,3 +67,5 @@ RUN fix-permissions "/etc/ipython/"
 
 USER $NB_UID
 WORKDIR "${HOME}"
+
+EXPOSE 4041
