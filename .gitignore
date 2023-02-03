@@ -135,5 +135,5 @@ _build/
 # Jetbrains
 .idea/
 
-# Grading
-grading/
+# Teaching and Grading
+teaching/

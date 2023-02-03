@@ -9,11 +9,9 @@ python = ">=3.10,<3.11"
 pyspark = "^3.3.1"
 pandas = "^1.5.2"
 psutil = "^5.9.4"
-networkx = "^2.8.8"
 jupyterlab = "^3.5.2"
 matplotlib = "^3.6.2"
 tinydb = "^4.7.0"
-s3fs = "^2022.11.0"
 kafka-python = "^2.0.2"
 plotly = "^5.11.0"
 pygal = "^3.0.0"
@@ -30,12 +28,15 @@ falcon = "^3.1.1"
 keras = "^2.11.0"
 pip = "^22.3.1"
 tensorflow-macos = {version = "^2.11.0", markers = "sys_platform == 'darwin'"}
-tensorflow = {version = "^2.11.0", markers = "sys_platform != 'darwin'"}
+tensorflow = {version = "^2.11.0", markers = "sys_platform == 'win32'"}
+s3fs = "^2023.1.0"
+networkx = "^3.0"
 
 [tool.poetry.dev-dependencies]
 mkdocs = "^1.4.2"
 mkdocs-material = "^9.0.2"
 pytest = "^7.2.0"
+devtools = {version = "^0.10.0", extras = ["pygments"]}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
