@@ -16,32 +16,22 @@ Download and install [Docker Desktop](https://www.docker.com/products/docker-des
 docker pull bellevueuniversity/dsc400-notebook:latest
 ```
 
-You can run the image as a container using the following command: 
+NOTE: Powershell or Windows-Subsystem for Linux is recommended if you are running on Windows. 
 
-```shell
-docker run -p 8888:8888 \
-  --name dsc400-notebook \
-  -v /some/host/folder/for/work:/home/jovyan/work \
-  bellevueuniversity/dsc400-notebook:latest
-```
+![Docker Pull](docs/img/docker-pull.png)
 
-The `-p 8888:8888` option maps the container port 8888 to port 8888 on the host. The option `-v /some/host/folder/for/work:/home/jovyan/work` makes the host folder `/some/host/folder/for/work` available in the running container at `/home/jovyan/work`. 
+Now that you have pulled the image, you can run the image as a container using the Docker Desktop application. Start by navigating to the *Images* section. 
 
-You can access the notebook by navigating your browser to `http://127.0.0.1:8888/lab?token=<TOKEN>`. You can find the full URL with the token value in the container's log output. 
+![Docker images section](docs/img/docker-images.png)
 
-![Running Notebook via Terminal](docs/img/terminal-log.png)
+Click on the *run* button. You will be prompted to enter settings to run the container.
 
-Additionally, you can run and manage the container in the Docker Desktop application. Start by opening the Docker Desktop application and navigating to images. Find the `bellevueuniversity/dsc400-notebook:latest` image and click the *Run* button.
+![Docker container settings](docs/img/run-container.png)
 
-![Running Notebook via Docker Desktop - Part 1](docs/img/docker-images.png)
+Enter the appropriate settings. For example, it is recommended that you map `/home/jovyan/work` to the directory on your local machine that contains the DSC 400 materials.
 
-When prompted, enter the optional settings, including port and volume mappings. 
+![Docker container settings](docs/img/run-container-with-settings.png)
 
-![Running Notebook via Docker Desktop - Part 2](docs/img/run-notebook.png)
-
-Finally, you can find the notebook URL and authentication token by navigating to the running container's log file. 
+Finally, You can access the notebook by navigating your browser to `http://127.0.0.1:8888/lab?token=<TOKEN>`. You can find the full URL with the token value in the container's log output.
 
 ![Running Notebook via Docker Desktop - Part 3](docs/img/desktop-log.png)
-
-
-
